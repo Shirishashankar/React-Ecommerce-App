@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Ecommerce App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is Ecommerce app built using React
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This Ecommerce app is built using React. It allows users to browse and shop products on app .
 
-### `npm start`
+### Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.Navbar
+   .Showed relevant navigation links
+2.All products page
+  .Showed list of products from the API (using the above server)
+  .Each product is editable by clicking on the “pencil” button. And we can edit that product inline.
+  .Each product is deletable, on clicking of the delete button you should delete the product.
+  .Implemented a sort button.
+  .Given button to add a product to cart
+3.Create page
+  .On clicking of the Add button add the product in the DB.
+4.Product detail page
+  .Showed all the details of a product
+  .Given button to add a product to cart
+4.Cart page
+  .Showed all the items in the cart
+  .Made the redux data persistent such that after refresh, the cart items etc remains same
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Images
 
-### `npm test`
+HOME PAGE
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="1440" alt="Beauty shop home" src="https://github.com/Shirishashankar/React-Ecommerce-App/assets/144225998/edac9a2c-a826-496a-a8da-478676786aa9">
 
-### `npm run build`
+PRODUCT PAGE
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img width="1440" alt="Beauty shop product" src="https://github.com/Shirishashankar/React-Ecommerce-App/assets/144225998/e235d06c-0599-4ac6-8d9e-70645fd889c4">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+LOGIN PAGE
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<img width="1440" alt="Beauty shop login" src="https://github.com/Shirishashankar/React-Ecommerce-App/assets/144225998/e32acc3b-f0e6-4cb1-8295-1c4b8f0d0547">
 
-### `npm run eject`
+ADDPRODUCT PAGE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img width="1440" alt="Beauty shop addproduct" src="https://github.com/Shirishashankar/React-Ecommerce-App/assets/144225998/4e0f00c7-9082-4d78-9b21-94c048663845">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+CART PAGE
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img width="1440" alt="Beauty shop cart" src="https://github.com/Shirishashankar/React-Ecommerce-App/assets/144225998/17a92ad1-84f2-4578-af6b-bafb48e9a84d">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Technologies used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  . HTML
+  . CSS
+  . React
+  . Bootstrap
+  . Redux
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
